@@ -2,7 +2,6 @@
 
 Created by Rich Stoner, April 2012
 
-This project provides a basic conversion utility from the NDAR data dictionary format into a REDCap instrument. 
 
 **Requirements:** 
 
