@@ -1,0 +1,3 @@
+[submodule "OpenCVForiPhone"]
+	path = OpenCVForiPhone
+	url = https://github.com/aptogo/OpenCVForiPhone.git

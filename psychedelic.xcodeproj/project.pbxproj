@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82C34BF14F495680023C43F /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82C34BE14F495680023C43F /* OpenCV.framework */; };
+		A82C34C414F4965F0023C43F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A82C34C314F4965F0023C43F /* libz.dylib */; };
+		A86A6E0B1569F497009904FC /* bigBuckBunny.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A86A6E0A1569F497009904FC /* bigBuckBunny.m4v */; };
+		A8CB488C14F355E000E5FF55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB488B14F355E000E5FF55 /* UIKit.framework */; };
+		A8CB488E14F355E000E5FF55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB488D14F355E000E5FF55 /* Foundation.framework */; };
+		A8CB489014F355E000E5FF55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB488F14F355E000E5FF55 /* CoreGraphics.framework */; };
+		A8CB48AF14F3567900E5FF55 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB48AE14F3567900E5FF55 /* AVFoundation.framework */; };
+		A8CB48B114F3568B00E5FF55 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB48B014F3568B00E5FF55 /* QuartzCore.framework */; };
+		A8CB48B314F356B000E5FF55 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB48B214F356B000E5FF55 /* AssetsLibrary.framework */; };
+		A8CB48B514F356DC00E5FF55 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB48B414F356DC00E5FF55 /* CoreMedia.framework */; };
+		A8CB48B714F356E300E5FF55 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB48B614F356E300E5FF55 /* CoreVideo.framework */; };
+		A8CB48C114F35EF000E5FF55 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB48C014F35EF000E5FF55 /* MediaPlayer.framework */; };
+		A8D8E1DF1569ED47002D07AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D8E1DE1569ED47002D07AC /* AppDelegate.m */; };
+		A8D8E1E21569ED4F002D07AC /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D8E1E11569ED4F002D07AC /* CaptureViewController.m */; };
+		A8D8E1E51569ED57002D07AC /* FaceAnalysis.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8D8E1E41569ED57002D07AC /* FaceAnalysis.mm */; };
+		A8D8E1EC1569ED66002D07AC /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = A8D8E1E61569ED66002D07AC /* haarcascade_eye_tree_eyeglasses.xml */; };
+		A8D8E1ED1569ED66002D07AC /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = A8D8E1E71569ED66002D07AC /* haarcascade_frontalface_alt2.xml */; };
+		A8D8E1EE1569ED66002D07AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D8E1E81569ED66002D07AC /* main.m */; };
+		A8D8E1F21569ED6C002D07AC /* px_by_Gre3g.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D8E1F11569ED6C002D07AC /* px_by_Gre3g.png */; };
+		A8D8E1F51569ED78002D07AC /* PSRootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8D8E1F41569ED78002D07AC /* PSRootViewController.mm */; };
+		A8D8E1F81569ED7F002D07AC /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8D8E1F71569ED7F002D07AC /* UIImage+OpenCV.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A82C34BE14F495680023C43F /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCV.framework; path = OpenCVForiPhone/OpenCV.framework; sourceTree = "<group>"; };
+		A82C34C314F4965F0023C43F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A86A6E0A1569F497009904FC /* bigBuckBunny.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = bigBuckBunny.m4v; sourceTree = SOURCE_ROOT; };
+		A8CB488714F355E000E5FF55 /* psychedelic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = psychedelic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CB488B14F355E000E5FF55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8CB488D14F355E000E5FF55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8CB488F14F355E000E5FF55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8CB48AE14F3567900E5FF55 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A8CB48B014F3568B00E5FF55 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A8CB48B214F356B000E5FF55 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A8CB48B414F356DC00E5FF55 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A8CB48B614F356E300E5FF55 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A8CB48C014F35EF000E5FF55 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A8D8E1DD1569ED47002D07AC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = psychedelic/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		A8D8E1DE1569ED47002D07AC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = psychedelic/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		A8D8E1E01569ED4F002D07AC /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureViewController.h; path = psychedelic/CaptureViewController.h; sourceTree = SOURCE_ROOT; };
+		A8D8E1E11569ED4F002D07AC /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureViewController.m; path = psychedelic/CaptureViewController.m; sourceTree = SOURCE_ROOT; };
+		A8D8E1E31569ED57002D07AC /* FaceAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceAnalysis.h; path = psychedelic/FaceAnalysis.h; sourceTree = SOURCE_ROOT; };
+		A8D8E1E41569ED57002D07AC /* FaceAnalysis.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FaceAnalysis.mm; path = psychedelic/FaceAnalysis.mm; sourceTree = SOURCE_ROOT; };
+		A8D8E1E61569ED66002D07AC /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_eye_tree_eyeglasses.xml; path = psychedelic/haarcascade_eye_tree_eyeglasses.xml; sourceTree = SOURCE_ROOT; };
+		A8D8E1E71569ED66002D07AC /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_alt2.xml; path = psychedelic/haarcascade_frontalface_alt2.xml; sourceTree = SOURCE_ROOT; };
+		A8D8E1E81569ED66002D07AC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = psychedelic/main.m; sourceTree = SOURCE_ROOT; };
+		A8D8E1E91569ED66002D07AC /* psychedelic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "psychedelic-Info.plist"; path = "psychedelic/psychedelic-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A8D8E1EA1569ED66002D07AC /* psychedelic-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "psychedelic-Prefix.pch"; path = "psychedelic/psychedelic-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		A8D8E1F11569ED6C002D07AC /* px_by_Gre3g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = px_by_Gre3g.png; path = psychedelic/px_by_Gre3g.png; sourceTree = "<group>"; };
+		A8D8E1F31569ED78002D07AC /* PSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSRootViewController.h; path = psychedelic/PSRootViewController.h; sourceTree = SOURCE_ROOT; };
+		A8D8E1F41569ED78002D07AC /* PSRootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PSRootViewController.mm; path = psychedelic/PSRootViewController.mm; sourceTree = SOURCE_ROOT; };
+		A8D8E1F61569ED7F002D07AC /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+OpenCV.h"; path = "psychedelic/UIImage+OpenCV.h"; sourceTree = SOURCE_ROOT; };
+		A8D8E1F71569ED7F002D07AC /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "UIImage+OpenCV.mm"; path = "psychedelic/UIImage+OpenCV.mm"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8CB488414F355E000E5FF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82C34C414F4965F0023C43F /* libz.dylib in Frameworks */,
+				A8CB48C114F35EF000E5FF55 /* MediaPlayer.framework in Frameworks */,
+				A8CB48B714F356E300E5FF55 /* CoreVideo.framework in Frameworks */,
+				A8CB48B514F356DC00E5FF55 /* CoreMedia.framework in Frameworks */,
+				A8CB48B314F356B000E5FF55 /* AssetsLibrary.framework in Frameworks */,
+				A8CB48B114F3568B00E5FF55 /* QuartzCore.framework in Frameworks */,
+				A8CB48AF14F3567900E5FF55 /* AVFoundation.framework in Frameworks */,
+				A8CB488C14F355E000E5FF55 /* UIKit.framework in Frameworks */,
+				A8CB488E14F355E000E5FF55 /* Foundation.framework in Frameworks */,
+				A8CB489014F355E000E5FF55 /* CoreGraphics.framework in Frameworks */,
+				A82C34BF14F495680023C43F /* OpenCV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A84C7F8C1569E7AD00274D7A /* CaptureView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D8E1E01569ED4F002D07AC /* CaptureViewController.h */,
+				A8D8E1E11569ED4F002D07AC /* CaptureViewController.m */,
+			);
+			name = CaptureView;
+			sourceTree = "<group>";
+		};
+		A84C7F8E1569E7F400274D7A /* FaceAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				A8D8E1E31569ED57002D07AC /* FaceAnalysis.h */,
+				A8D8E1E41569ED57002D07AC /* FaceAnalysis.mm */,
+			);
+			name = FaceAnalysis;
+			sourceTree = "<group>";
+		};
+		A84C7F8F1569E80600274D7A /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				A8D8E1F31569ED78002D07AC /* PSRootViewController.h */,
+				A8D8E1F41569ED78002D07AC /* PSRootViewController.mm */,
+				A8D8E1DD1569ED47002D07AC /* AppDelegate.h */,
+				A8D8E1DE1569ED47002D07AC /* AppDelegate.m */,
+			);
+			name = AppBase;
+			sourceTree = "<group>";
+		};
+		A8A0B13E1569E22000F14F2B /* imageassets */ = {
+			isa = PBXGroup;
+			children = (
+				A8D8E1F11569ED6C002D07AC /* px_by_Gre3g.png */,
+			);
+			name = imageassets;
+			sourceTree = "<group>";
+		};
+		A8A0B13F1569E41800F14F2B /* OpenCVClient */ = {
+			isa = PBXGroup;
+			children = (
+				A8D8E1F61569ED7F002D07AC /* UIImage+OpenCV.h */,
+				A8D8E1F71569ED7F002D07AC /* UIImage+OpenCV.mm */,
+			);
+			name = OpenCVClient;
+			sourceTree = "<group>";
+		};
+		A8CB487C14F355E000E5FF55 = {
+			isa = PBXGroup;
+			children = (
+				A8A0B13E1569E22000F14F2B /* imageassets */,
+				A8CB489114F355E000E5FF55 /* src */,
+				A8CB488A14F355E000E5FF55 /* Frameworks */,
+				A8CB488814F355E000E5FF55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8CB488814F355E000E5FF55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB488714F355E000E5FF55 /* psychedelic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8CB488A14F355E000E5FF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A82C34C314F4965F0023C43F /* libz.dylib */,
+				A82C34BE14F495680023C43F /* OpenCV.framework */,
+				A8CB48C014F35EF000E5FF55 /* MediaPlayer.framework */,
+				A8CB48B614F356E300E5FF55 /* CoreVideo.framework */,
+				A8CB48B414F356DC00E5FF55 /* CoreMedia.framework */,
+				A8CB48B214F356B000E5FF55 /* AssetsLibrary.framework */,
+				A8CB48B014F3568B00E5FF55 /* QuartzCore.framework */,
+				A8CB48AE14F3567900E5FF55 /* AVFoundation.framework */,
+				A8CB488B14F355E000E5FF55 /* UIKit.framework */,
+				A8CB488D14F355E000E5FF55 /* Foundation.framework */,
+				A8CB488F14F355E000E5FF55 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8CB489114F355E000E5FF55 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A84C7F8E1569E7F400274D7A /* FaceAnalysis */,
+				A8A0B13F1569E41800F14F2B /* OpenCVClient */,
+				A84C7F8C1569E7AD00274D7A /* CaptureView */,
+				A84C7F8F1569E80600274D7A /* AppBase */,
+				A8CB489214F355E000E5FF55 /* Supporting Files */,
+			);
+			name = src;
+			path = dualvidoe;
+			sourceTree = "<group>";
+		};
+		A8CB489214F355E000E5FF55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D8E1E61569ED66002D07AC /* haarcascade_eye_tree_eyeglasses.xml */,
+				A8D8E1E71569ED66002D07AC /* haarcascade_frontalface_alt2.xml */,
+				A8D8E1E81569ED66002D07AC /* main.m */,
+				A8D8E1E91569ED66002D07AC /* psychedelic-Info.plist */,
+				A8D8E1EA1569ED66002D07AC /* psychedelic-Prefix.pch */,
+				A86A6E0A1569F497009904FC /* bigBuckBunny.m4v */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8CB488614F355E000E5FF55 /* psychedelic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CB48A814F355E000E5FF55 /* Build configuration list for PBXNativeTarget "psychedelic" */;
+			buildPhases = (
+				A8CB488314F355E000E5FF55 /* Sources */,
+				A8CB488414F355E000E5FF55 /* Frameworks */,
+				A8CB488514F355E000E5FF55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = psychedelic;
+			productName = dualvidoe;
+			productReference = A8CB488714F355E000E5FF55 /* psychedelic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8CB487E14F355E000E5FF55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = UCSD;
+			};
+			buildConfigurationList = A8CB488114F355E000E5FF55 /* Build configuration list for PBXProject "psychedelic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8CB487C14F355E000E5FF55;
+			productRefGroup = A8CB488814F355E000E5FF55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8CB488614F355E000E5FF55 /* psychedelic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8CB488514F355E000E5FF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D8E1EC1569ED66002D07AC /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
+				A8D8E1ED1569ED66002D07AC /* haarcascade_frontalface_alt2.xml in Resources */,
+				A8D8E1F21569ED6C002D07AC /* px_by_Gre3g.png in Resources */,
+				A86A6E0B1569F497009904FC /* bigBuckBunny.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8CB488314F355E000E5FF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D8E1DF1569ED47002D07AC /* AppDelegate.m in Sources */,
+				A8D8E1E21569ED4F002D07AC /* CaptureViewController.m in Sources */,
+				A8D8E1E51569ED57002D07AC /* FaceAnalysis.mm in Sources */,
+				A8D8E1EE1569ED66002D07AC /* main.m in Sources */,
+				A8D8E1F51569ED78002D07AC /* PSRootViewController.mm in Sources */,
+				A8D8E1F81569ED7F002D07AC /* UIImage+OpenCV.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8CB48A614F355E000E5FF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8CB48A714F355E000E5FF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8CB48A914F355E000E5FF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OpenCVForiPhone\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "psychedelic/psychedelic-Prefix.pch";
+				INFOPLIST_FILE = "psychedelic/psychedelic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8CB48AA14F355E000E5FF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OpenCVForiPhone\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "psychedelic/psychedelic-Prefix.pch";
+				INFOPLIST_FILE = "psychedelic/psychedelic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8CB488114F355E000E5FF55 /* Build configuration list for PBXProject "psychedelic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CB48A614F355E000E5FF55 /* Debug */,
+				A8CB48A714F355E000E5FF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CB48A814F355E000E5FF55 /* Build configuration list for PBXNativeTarget "psychedelic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CB48A914F355E000E5FF55 /* Debug */,
+				A8CB48AA14F355E000E5FF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8CB487E14F355E000E5FF55 /* Project object */;
+}

@@ -1,0 +1,19 @@
+
+#import <Availability.h>
+
+#ifdef __cplusplus
+#include <OpenCV/opencv2/opencv.hpp>
+//#include "OpenCV/opencv2/stitching/stitcher.hpp"
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import <AVFoundation/AVFoundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <CoreVideo/CoreVideo.h>
+#import <CoreMedia/CoreMedia.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+
+#endif
